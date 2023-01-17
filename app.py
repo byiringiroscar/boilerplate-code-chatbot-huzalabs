@@ -12,8 +12,8 @@ from chat import chatBot
 
 chatBot = chatBot()
 
-# import nltk
-# nltk.download('punkt')
+import nltk
+nltk.download('punkt')
 
 app = Flask(__name__)
 CORS(app)
